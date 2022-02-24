@@ -6,7 +6,7 @@ import portfolio from '../assets/portfolio.png';
 import fcdigital from '../assets/fcdigital.jpg';
 import petitbateau from '../assets/petitbateau.jpg';
 import { motion } from 'framer-motion';
-import { Container, Box, Button, Spacer, Flex, Center, Heading, Text, WrapItem, Wrap, Image } from '@chakra-ui/react';
+import { Container, Box, Center, Heading, Text, WrapItem, Wrap, Image } from '@chakra-ui/react';
 
 const Work = () => {
     return (

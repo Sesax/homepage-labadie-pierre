@@ -3,9 +3,9 @@ import stluc from '../assets/stluc.png';
 import dampierre from '../assets/dampierre.jpg';
 import epsi from '../assets/epsi.jpg';
 import moi from '../assets/moi.png';
-import { FaHtml5, FaReact, FaJava, FaJs, FaDocker, FaEthereum, FaGithub, FaLinkedin, FaInstagram, FaDiscord } from "react-icons/fa";
+import { FaHtml5, FaReact, FaJava, FaJs, FaDocker, FaEthereum, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Container, Box, Button, Spacer, Hstack, Center, Heading, Text, WrapItem, Wrap, Image, HStack } from '@chakra-ui/react'
+import { Container, Box, Button, Center, Heading, Text, WrapItem, Wrap, Image, HStack } from '@chakra-ui/react'
 import { motion } from 'framer-motion';
 
 const Home = () => {
