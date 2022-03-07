@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import blockchain from '../assets/blockchain.jpg';
 import labyrinth from '../assets/labyrinth.jpg';
 import mailapi from '../assets/mailapi.png';
@@ -31,7 +32,13 @@ const Work = () => {
                 <Box marginTop={20}>
                     <Wrap justify='center' spacing={20}>
                         <WrapItem w='700px' h='437px'>
-                            <Image src={blockchain} alt='Blockchain' borderRadius={20} />
+                            <Link to='/Veille'>
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                >
+                                    <Image src={blockchain} alt='Blockchain' borderRadius={20} />
+                                </motion.div>
+                            </Link>
                         </WrapItem>
                         <WrapItem w='600px' h='464px'>
                             <Box margin={5}>

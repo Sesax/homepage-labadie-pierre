@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Work from './pages/Work';
+import Veille from './pages/Veille';
 import Competences from './pages/Competences';
 import Navbar from './components/Navbar';
 import { motion } from 'framer-motion';
@@ -20,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/work' element={<Work />} />
+        <Route path='/veille' element={<Veille />} />
         <Route path='/competences' element={<Competences />} />
       </Routes>
     </Router>
