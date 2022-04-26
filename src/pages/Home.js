@@ -17,17 +17,17 @@ const Home = () => {
                 transition={{ delay: 1, duration: 1 }}
             >
                 <Center>
-                    <Heading marginBottom={8} color='black' size='sm'>Hey I'm Pierre !</Heading>
+                    <Heading marginBottom={8} color='black' size='sm'>Moi c'est Pierre !</Heading>
                 </Center>
                 <Center textAlign='center'>
-                    <Heading w={600} color='black' size='3xl'>BackEnd developer constantly learning new technologies</Heading>
+                    <Heading w={600} color='black' size='3xl'>Jeune concepteur développeur web et logiciel</Heading>
                 </Center>
                 <Center textAlign='center'>
-                    <Text marginTop={8} w={800} color='gray.700' size='xs'>Passionate about programming since I entered high school, I'm constantly searching for new knowledge and I am trying to be as versatile as I can in the world of computer science</Text>
+                    <Text marginTop={8} w={800} color='gray.700' size='xs'>Passionné par le développement informatique depuis mon entrée au lycée, j'ai décidé d'en faire mon metier</Text>
                 </Center>
                 <Center>
                     <Button _hover={{ backgroundColor: 'black' }} size='md' bgColor='black' color='white' colorScheme='blackAlpha' borderRadius={0} variant='solid' marginTop={10}>
-                        <Link to='/Contact'>CONTACT ME</Link>
+                        <Link to='/Contact'>ME CONTACTER</Link>
                     </Button>
                 </Center>
             </motion.div>

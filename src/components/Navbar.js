@@ -17,9 +17,6 @@ const Navbar = () => {
                     <Link to='/Work'>
                         <Button size='sm' colorScheme='gray' variant='ghost'>Projets</Button>
                     </Link>
-                    <Link to='/Competences'>
-                        <Button size='sm' colorScheme='gray' variant='ghost'>Competences</Button>
-                    </Link>
                 </Box>
             </Flex>
         </Container >
